@@ -251,7 +251,7 @@ export const team = [
     cover: "https://i.postimg.cc/L4BRfTC1/kallo.jpg",
     name: "Mohamed Junior Kallo",
     profil : "Licence 3 en Droit Privé : FSJESM" ,
-    work: "Secretaire General",
+    work: "Secretaire Général",
   },
   {
     cover: "https://i.postimg.cc/hP1jDgWN/mamoudou-master.jpg", 
