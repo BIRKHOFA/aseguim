@@ -16,7 +16,7 @@ const Header = () => {
               <Link to='/'>Accueil</Link>
             </li>
             <li>
-              <Link to='/courses'>Les Ressources Scolaire</Link>
+              <Link to='/courses'>Les Ressources Scolaires</Link>
             </li>
             <li>
               <Link to='/about'>A propos de l'association</Link>
