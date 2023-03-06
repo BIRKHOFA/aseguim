@@ -35,45 +35,46 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "https://i.postimg.cc/J0Bk6FsM/birkhoff-profil.jpg",
-    coursesName: "WORD",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/587px-Microsoft_Word_2013-2019_logo.svg.png",
+    coursesName: "Word",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "https://i.postimg.cc/J0Bk6FsM/birkhoff-profil.jpg",
         name: "Mamady Traoré",
-        totalTime: "50 lectures (190 hrs)",
+        totalTime: "Formateur",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "Support de Cours",
+    pricePer: "Vidéos",
+    
   },
   {
     id: 2,
-    cover: "https://i.postimg.cc/tgVBtDmD/c2.png",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/2170px-Microsoft_Excel_2013-2019_logo.svg.png",
     coursesName: "Excel",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "https://i.postimg.cc/J0Bk6FsM/birkhoff-profil.jpg",
         name: "Mamady Traoré",
-        totalTime: "30 lectures (125 hrs)",
+        totalTime: "Formateur",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    priceAll: "Support de Cours",
+    pricePer: "Vidéos",
   },
   {
     id: 3,
-    cover: "https://i.postimg.cc/t4crx8DY/c3.png",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Microsoft_Office_Access_%282019-present%29.svg/2097px-Microsoft_Office_Access_%282019-present%29.svg.png",
     coursesName: "Access",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "Mamady Traoré",
-        totalTime: "50 lectures (50 hrs)",
+        dcover: "https://i.postimg.cc/J0Bk6FsM/birkhoff-profil.jpg",
+        name: " Mamady Traoré",
+        totalTime: "Formateur",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    priceAll: "Support de Cours",
+    pricePer: "Vidéos",
   },
   // {
   //   id: 4,
@@ -256,8 +257,8 @@ export const team = [
   {
     cover: "https://i.postimg.cc/hP1jDgWN/mamoudou-master.jpg", 
     name: "Mamoudou Traoré",
-    profil : "Master 2 Managemet Stratégique des Entreprise" ,
-    work: "Chargeé Culturel : IGIC",
+    profil : "Master 2 Managemet Stratégique des Entreprise : IGIC" ,
+    work: "Chargé Culturel ",
   },
   {
     cover: "https://i.postimg.cc/bvWYCwkS/maoudou-berete.jpg",
@@ -345,7 +346,7 @@ export const blog = [
     type: "admin",
     date: "10 , MArs, 2023",
     com: "3 COMMENTAIRE ",
-    title: "Election pour la désignation du SG Mohammedia",
+    title: "Assemblée Générale pour la désignation du SG Mohammedia",
     desc: "Cette Assemblée est une occasion pour tous les membres de l'association de renouveler leur devoir qui est la vôte à l'association",
     cover: "https://i.postimg.cc/L6XB3NJf/b1.webp",
   },
@@ -354,7 +355,7 @@ export const blog = [
     type: "admin",
     date: "10 , MArs, 2023",
     com: "3 COMMENTAIRE ",
-    title: "Election pour la désignation du SG Mohammedia",
+    title: "Assemblée Générale pour la désignation du SG Mohammedia",
     desc: "Cette Assemblée est une occasion pour tous les membres de l'association de renouveler leur devoir qui est la vôte à l'association",
     cover: "https://i.postimg.cc/L6XB3NJf/b1.webp",
   },
@@ -388,8 +389,8 @@ export const resourcesData = [
   {
     id:1 , 
     ecoles : "FSTM" , 
-    filieres : "MIP" , 
-    semestres : "Tous les semestres" , 
+    filiere : "MIP" , 
+    semestre : "Tous les semestres" , 
     lien: "https://drive.google.com/drive/folders/1uCE36hRlLAfewjD0sR-Xnbch4gvqzHue" ,
     responsable : "Youssouf sylla",
     email : "syllayoussouf@gmail.com" ,
@@ -397,9 +398,9 @@ export const resourcesData = [
   },
   {
     id:2 , 
-    ecoles : "FSTM" , 
-    filieres : "BCG" , 
-    semestres : "Tous les semestres" , 
+    ecole : "FSTM" , 
+    filiere : "BCG" , 
+    semestre : "Tous les semestres" , 
     lien: "https://drive.google.com/drive/folders/1uQ22figxrazlTlrfeilZYCJHc0Zl6KSc?usp=share_link" ,
     responsable : "Mamadou keira sylla",
     email : "keirasylla@gmail.com" ,
@@ -408,8 +409,8 @@ export const resourcesData = [
   {
     id:3 , 
     ecoles : "FSJESM" , 
-    filieres : "ECONOMIE" , 
-    semestres : "Tous les semestres" , 
+    filiere : "ECONOMIE" , 
+    semestre : "Tous les semestres" , 
     lien: "https://drive.google.com/drive/folders/1WGW4i-YojGoCoLRVaLUkACPGo_gobxA3?usp=sharing" ,
     responsable : "kadia keita",
     email : "keitakadia215@gmail.com",
@@ -417,9 +418,9 @@ export const resourcesData = [
   },
   {
     id:4, 
-    ecoles : "FSJESM" , 
-    filieres : "DROIT" , 
-    semestres : "Tous les semestres" , 
+    ecole : "FSJESM" , 
+    filiere : "DROIT" , 
+    semestre : "Tous les semestres" , 
     lien: "https://drive.google.com/drive/folders/1WGW4i-YojGoCoLRVaLUkACPGo_gobxA3?usp=sharing" ,
     responsable : "Mamadou Bérété",
     email : "beretemamoudou071@gmail.com",
@@ -432,6 +433,6 @@ export const resourcesData = [
 export const info_pied_page = {
 
 email : "aseguimmohammedia2022@gmail.com",
-telephone : "+2 392 3929 210",
-address : "Hay Riyad Mohammedia Avenue Hassan II"
+telephone : "+212 653851436",
+address : "Amal N10 Brâdaa alias Mohammedia "
 }
